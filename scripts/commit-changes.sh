@@ -4,7 +4,7 @@ set -e
 cd "$(dirname $0)/.."
 
 git config user.email "mangeshsuryawanshi.tdg@gmail.com"
-git config user.name "BOT"
+git config user.name "TheDevopsBuddy"
 git add -u .
 if [ -z "$(git status --porcelain)" ]; then
   echo "No changes detected."
