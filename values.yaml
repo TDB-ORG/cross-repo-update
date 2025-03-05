@@ -1,0 +1,13 @@
+my-application:
+  team:
+    name: my-team
+    region: eu1
+
+  application:
+    replicaCount: 1
+
+    serviceAccountName: my-app-sa
+
+    image:
+      repository: 123.dkr.ecreu-west-1.awazonawss.com/my-namespace/my-team
+      tag: some-test-tag
