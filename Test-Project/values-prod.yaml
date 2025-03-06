@@ -7,4 +7,4 @@ my-application:
     serviceAccountName: my-app-sa
     image:
       repository: 123.dkr.ecreu-west-1.awazonawss.com/my-namespace/my-team
-      tag: 7f091377
+      tag: 55bf1952
